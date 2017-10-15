@@ -8,8 +8,8 @@ var app = new Vue({
        employeGender: 'Male'
     },
     methods:{
-      greet: function(){
-        return 'Good Morning'
+      greet: function(time){
+        return 'Good ' + time;
       }
     }
 });
