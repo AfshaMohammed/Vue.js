@@ -1,6 +1,7 @@
 var app = new Vue({
   el: '#vue-app',
   data:{
-    name:'Afsha!'
+    name:'Afsha',
+    job: 'UI Developer'
   }
 });
